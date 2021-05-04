@@ -9,7 +9,7 @@ def buttonClick():
 
 # Fonksiyonun çalışması için command parametresine fonksiyonun adı yazılır.
 
-firstButton = Button(root, text="CLick Me", padx=50, pady = 50, command=buttonClick, fg="blue", bg="gold")
+firstButton = Button(root, text="CLick Me", padx=50, pady = 20, command=buttonClick, fg="white", bg="black")
 firstButton.pack()
 
 # Butonu devre dışı bırakmak için state=DISABLED
